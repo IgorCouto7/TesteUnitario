@@ -3,6 +3,11 @@ public class Assassino extends Campeao {
         super(nome, rota);
     }
 
+    
+    public Assassino(String nome, String rota, int nivel) {
+        super(nome, rota, nivel);
+    }
+
     @Override
     public void atacar() {
         System.out.println(nome + " deu um dash e explodiu o inimigo!");
